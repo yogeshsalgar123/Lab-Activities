@@ -2,9 +2,9 @@ package Question09;
 
 public class Main {
 	public static void main(String[] args) {
-		
-		int sum=UserMainCode.sumOfSquareOfEvenDigits(56895);
-		System.out.println(sum);
+		UserMainCode obj1 = new UserMainCode();
+		obj1.reshape("Rabbit");
+
 	}
 
 }
